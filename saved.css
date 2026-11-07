@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+    font-family: Oswald, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#head {
+    background-color: white;
+    border: solid rgba(255, 166, 0, 0.926) 5px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+    width: 150px;
+}
+
+#name {
+    font-size: 30px;
+}
+
+.navTable {
+    margin-left: auto;
+    margin-right: 70px;
+}
+
+.navTable a {
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero,
+.scholarship-section {
+    width: 85%;
+    margin: 40px auto;
+    padding: 30px;
+    border: solid #ddd 3px;
+    box-sizing: border-box;
+}
+
+.hero {
+    text-align: center;
+}
+
+.scholarship-grid,
+.ads-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.scholarship-card,
+.ad-card {
+    padding: 20px;
+    border: solid #060ba8 2px;
+}
+
+.tag,
+.deadline {
+    display: block;
+    color: orange;
+}
+
+.ads-section {
+    width: 85%;
+    margin: 40px auto;
+}
+
+button {
+    border: solid #060ba8 2px;
+    background-color: white;
+    padding: 10px 20px;
+}
