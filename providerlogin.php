@@ -18,7 +18,7 @@
 
       <table class="navTable" cellpadding="4" cellspacing="0" border="0">
         <tr>
-          <td><a href="register.php" title="Jump to home section">Register</a></td>
+          <td><a href="providerreg.php" title="Jump to home section">Register</a></td>
           <td>|</td>
           <td><a href="homepage1.html" title="Jump to abt section">about us</a></td>
           <td>|</td>
